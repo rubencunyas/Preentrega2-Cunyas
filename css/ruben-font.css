@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'rux';
+    src: url('../assets/fonts/rux.eot?ggycuh');
+    src: url('../assets/fonts/rux.eot?ggycuh#iefix') format('embedded-opentype'),
+        url('../assets/fonts//rux.ttf?ggycuh') format('truetype'),
+        url('../assets/fonts/rux.woff?ggycuh') format('woff'),
+        url('../assets/fonts/rux.svg?ggycuh#rux') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="ico-"], [class*=" ico-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'rux' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-ico-rc:before {
+    content: "\e900";
+    color: #fff;
+}
+
+a .ico-ico-rc {
+    position: relative;
+    display: inline-block;
+    font-size: 2.5em;
+    font-weight: 800;
+    overflow: hidden;
+    /*color: royalblue;
+    background: -webkit-gradient(linear, left top, right top, from(midnightblue), color-stop(50%, midnightblue), color-stop(50%, royalblue));
+    background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);*/
+    color: whitesmoke;
+    background: -webkit-gradient(linear, left top, right top, from(#015bff), color-stop(50%, #015bff), color-stop(50%, #8c8c8c));
+    background: linear-gradient(to right, #015bff, #015bff 50%, #8c8c8c 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    -webkit-transition: background-position 275ms ease;
+    transition: background-position 275ms ease;
+    text-decoration: none;
+}
+
+a:hover .ico-ico-rc {
+    background-position: 0 100%;
+}
