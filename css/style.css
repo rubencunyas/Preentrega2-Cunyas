@@ -147,3 +147,14 @@ form label {
 .nav-item{
   text-align: center;
 }
+
+@media only screen and (min-width: 768px) {
+  .proyecto {
+    height: 38vh;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .proyecto {
+    height: 45vh;
+  }
+}
