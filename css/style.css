@@ -42,38 +42,14 @@ header {
   padding: 20px; }
 
 /*NAVEGACIÓN*/
-nav {
-  display: flex;
-  align-items: center; }
-
-.navegacion {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  list-style: none; }
-
-.navegacion li {
-  padding: 20px;
-  margin-left: 20px; }
-
-.navegacion li a {
-  padding: 20px;
-  color: black; }
-
-.navegacion li a:hover {
-  color: #015bff; }
-
+.nav-link.btn{
+  color: white !important;
+}
 /*CONTENIDO CENTRAL*/
-main {
-  max-width: 960px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  margin-top: 100px; }
+
 
 .proyecto {
-  height: 25vh;
+  height: 30vh;
   margin: 25px 0;
   background: #03296e;
   position: relative;
@@ -83,7 +59,7 @@ main {
   cursor: pointer; }
 
 .proyecto .proyecto__img {
-  opacity: 0.5;
+  opacity: 0.3;
   transform: scale(1.2);
   position: relative;
   display: block; }
