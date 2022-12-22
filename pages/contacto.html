@@ -1,12 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio Rubén Cunyas</title>
+    <!--CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--CSS AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="./assets/img/rc-ico.png" type="image/x-icon">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,600&display=swap"
+        rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/ruben-font.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
-    
+    <!--INICIO DE CABECERA-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#"><i class="ico-ico-rc"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03"
+                    aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor03">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./proyectos.html">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nosotros.html">El team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-primary" href="./contacto.html">¡Ponte en contacto!</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--FIN DE CABECERA-->
+
+    <!--INICIO DE CUERPO-->
+    <main>
+        <div class="container">
+            <div class="row text-center py-3 my-3" data-aos="zoom-in">
+                <div class="col pt-5 mt-5">
+                    <h2 class="fw-bold">Contáctanos</h2>
+                    <p>Te ayudo en todo lo que se pueda. Déjanos tus datos</p>
+                </div>
+            </div>
+            <!--FORMULARIO DE CONTACTO-->
+            <div class="accordion" id="accordionExample">
+                <form action="">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                1.° Datos personales
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="col-12 col-md-6 mb-3">
+                                    <label for="" class="form-label">Nombres</label>
+                                    <input type="text" class="form-control" placeholder="Tus nombres">
+                                </div>
+                                <div class="col-12 col-md-6 mb-3">
+                                    <label for="" class="form-label">Apellidos</label>
+                                    <input type="text" class="form-control" placeholder="Apellidos">
+                                </div>
+                                <div class="col-12 col-md-6 mb-3">
+                                    <label for="" class="form-label">Correo electrónico</label>
+                                    <input type="email" class="form-control" placeholder="Correo electrónico">
+                                </div>
+                                <div class="col-12 col-md-6 mb-3">
+                                    <label for="" class="form-label">Número de teléfono</label>
+                                    <input type="phone" class="form-control" placeholder="Número de teléfono">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                2.° Información de tu marca
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="col-12 col-md-6 mb-3">
+                                    <label for="" class="form-label">Nombre de tu producto/servicio</label>
+                                    <input type="text" class="form-control" placeholder="Nombre de producto/servicio">
+                                </div>
+                                <div class="col-12 col-md-6 mb-3">
+                                    <label for="" class="form-label">¿Cuál es el rubro?</label>
+                                    <input type="text" class="form-control" placeholder="Rubro">
+                                </div>
+                                <div class="col-12 col-md-6 mb-3">
+                                    <label for="" class="form-label">¿Cúal es la zona/área de venta?</label>
+                                    <input type="text" class="form-control" placeholder="Área de ventas">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                3.° Público
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="col-12 col-md-6 mb-3">
+                                    <label for="" class="form-label">¿A quién/quienes nos dirigimos?</label>
+                                    <input type="text" class="form-control" placeholder="¿A quién/quienes nos dirigimos?">
+                                </div>
+                                <div class="col-12 col-md-6 mb-3">
+                                    <label for="" class="form-label">¿Cuál es la expactiva de ventas?</label>
+                                    <input type="text" class="form-control" placeholder="Expectativa de ventas">
+                                </div>
+                                <div class="col-12 col-md-6 mb-3">
+                                    <label for="" class="form-label">¿Cómo se comporta hoy tu posible cliente con relación a tu marca?</label>
+                                    <input type="text" class="form-control" placeholder="Comportamiento de cliente">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center my-3">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                </form>
+            </div>
+
+            <!--FIN FORMULARIO DE CONTACTO-->
+        </div>
+    </main>
+    <!--FIN DE CUERPO-->
+
+    <!--INICIO DE PIE-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 text-center pb-3">
+                    <a href="http://behance.com" target="blank" class="mx-2"><i class="fa-brands fa-behance"></i></a>
+                    <a href="http://facebook.com" target="blank" class="mx-2"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="http://instagram.com" target="blank" class="mx-2"><i
+                            class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="col-12 col-md-6">
+
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-12">© Rubén Cunyas 2022</div>
+            </div>
+        </div>
+    </footer>
+    <!--FIN DE PIE-->
+
+
+
+    <!--JS Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <!--Smoot Scroll-->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    <!--AOS Js-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>
