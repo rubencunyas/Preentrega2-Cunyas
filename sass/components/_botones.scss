@@ -1,0 +1,24 @@
+.btn-primary {
+    color: white;
+    background-color: $primary;
+    border: hidden;
+    font-size: 0.9rem;
+    padding: 12px 35px;
+    border-radius: .25rem;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover {
+    background-color: $primary;
+    color: white;
+}
+
+.btn--cancel{
+    @extend .btn-primary;
+    background-color: map-get($colores_extra , grey );
+    cursor: no-drop;
+}
+
+.btn-secondary{
+    background-color: map-get($colores_extra , azul)
+}

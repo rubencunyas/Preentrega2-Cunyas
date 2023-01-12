@@ -1,0 +1,28 @@
+/*FORM*/
+form label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.input-form {
+    @include ancho(50%);
+    padding: 10px;
+    font-size: 1rem;
+    color: $form_input;
+    background-color: white;
+    border: $border;
+    border-radius: $border_radius;
+}
+
+
+
+.suscribe {
+    @include ancho(80%);
+
+    form {
+        display: flex;
+        height: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
