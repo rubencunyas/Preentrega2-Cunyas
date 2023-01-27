@@ -29,116 +29,174 @@
     <link rel="stylesheet" href="./css/ruben-font.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
-<!--INICIO DE CABECERA-->
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!--INICIO DE CABECERA-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#"><i class="ico-ico-rc"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03"
+                    aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor03">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/proyectos.html">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/nosotros.html">El team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-primary" href="./pages/contacto.html">¡Ponte en contacto!</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--FIN DE CABECERA-->
+
+    <!--INICIO DE CUERPO-->
+    <main>
         <div class="container">
-            <a class="navbar-brand" href="#"><i class="ico-ico-rc"></i></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03"
-                aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarColor03">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/proyectos.html">Proyectos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/servicios.html">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/nosotros.html">El team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link btn btn-primary" href="./pages/contacto.html">¡Ponte en contacto!</a>
-                    </li>
-                </ul>
 
+            <!--ACERCA DE MI-->
+            <div class="row py-5 my-5" data-aos="zoom-in">
+                <div class="col-8 py-5 my-5">
+                    <h1 class="fw-bold">Hola, <br> soy Rubén Cunyas.</h1>
+                    <p>
+                        Este es mi <strong>portafolio</strong>, aquí encontrarás<br>
+                        algunos proyectos <br>
+                        en los que he participado.
+                    </p>
+                    <p>
+                        <a href="./pages/contacto.html" class="btn btn-primary">Pide una cotización</a>
+                    </p>
+                </div>
+                <div class="col-4">
+                    <img src="./assets/img/nosotros/ruben-cunyas.png" alt="" class="img-fluid">
+                </div>
             </div>
-        </div>
-    </nav>
-</header>
-<!--FIN DE CABECERA-->
 
-<!--INICIO DE CUERPO-->
-<main>
-    <div class="container">
-        <div class="row text-center py-5 my-5" data-aos="zoom-in">
-            <div class="col pt-5 mt-5">
-                <h1 class="fw-bold">Hola, soy Rubén Cunyas</h1>
-                <p>y este es mi <strong>portafolio</strong></p>
-            </div>
-        </div>
-        <!--LISTA DE PROYECTOS-->
-        <div class="row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-            <div class="col proyecto proyecto--uno wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s">
-                <a href="./pages/proyectos.html">
-                    <img class="proyecto__img img-fluid" src="./assets/img/proyectos/proyecto1.png" alt="Proyecto">
-                    <div class="proyecto__contenido">
-                        <h2 class="proyecto__contenido--titulo">Retrato Gandalf</h2>
-                        <span class="badge bg-primary">Arte gráfica</span>
-                        <p class="proyecto__contenido--link">ver más <i class="fa-solid fa-arrow-right"></i></p>
+            <!-- SKILLS Y EXPERIENCIAS-->
+            <div class="row py-5 my-5" data-aos="zoom-in">
+                <div class="col-12">
+                    <p>Mi experiencia</p>
+                    <h2 class="fw-bold">Con más de 10 años de experiencia</h2>
+                </div>
+
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Brand Book</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Lineamientos gráficos</h6>
+                            <p class="card-text">Este documento online te ayudará a lograr que te identifiquen y te escojan las audiencias, ya que vuelve tangible los valores de la marca...</p>
+                            <a href="./pages/servicios.html" class="card-link">Ver más</a>
+                        </div>
                     </div>
-                </a>
-            </div>
-        </div>
-
-        <div class="row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-            <div class="col proyecto proyecto--dos">
-                <a href="./pages/proyectos.html">
-                    <img class="proyecto__img img-fluid" src="./assets/img/proyectos/proyecto2.png" alt="Proyecto">
-                    <div class="proyecto__contenido">
-                        <h2 class="proyecto__contenido--titulo">Colegios San Agustin</h2>
-                        <span class="badge bg-primary">Diseño web</span>
-                        <p class="proyecto__contenido--link">ver más <i class="fa-solid fa-arrow-right"></i></p>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">UI Kit</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Web apps</h6>
+                            <p class="card-text">Una herramienta de optimización de tiempo y recursos para productos digitales de crecimiento a gran escala con alto tráfico de...</p>
+                            <a href="./pages/servicios.html" class="card-link">Ver más</a>
+                        </div>
                     </div>
-                </a>
-            </div>
-        </div>
-
-        <div class="row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-            <div class="col proyecto proyecto--tres">
-                <a href="./pages/proyectos.html">
-                    <img class="proyecto__img img-fluid" src="./assets/img/proyectos/proyecto3.png" alt="Proyecto">
-                    <div class="proyecto__contenido">
-                        <h2 class="proyecto__contenido--titulo">Reel Tacos Snacks</h2>
-                        <span class="badge bg-primary">Animación</span>
-                        <p class="proyecto__contenido--link">ver más <i class="fa-solid fa-arrow-right"></i></p>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Post producción</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Multimedia</h6>
+                            <p class="card-text">Diseño y post producción de Key Visual para tv y cine. Vuelve tus fotografías piezas de comunicación eficaces. ...</p>
+                            <a href="./pages/servicios.html" class="card-link">Ver más</a>
+                        </div>
                     </div>
-                </a>
+                </div>
             </div>
-        </div>
-        <!--FIN LISTA DE PROYECTOS-->
-    </div>
-</main>
-<!--FIN DE CUERPO-->
+            <!--LISTA DE PROYECTOS-->
+            <div class="col-12">
+                <h2 class="fw-bold">Proyectos</h2>
+                <p>en los que participé</p>
+            </div>
+            <div class="row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <div class="col proyecto proyecto--uno wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s">
+                    <a href="./pages/proyectos-detalle_gandalf.html">
+                        <img class="proyecto__img img-fluid" src="./assets/img/proyectos/proyecto1.png" alt="Proyecto">
+                        <div class="proyecto__contenido">
+                            <h2 class="proyecto__contenido--titulo">Retrato Gandalf</h2>
+                            <span class="badge bg-primary">Arte gráfica</span>
+                            <p class="proyecto__contenido--link">ver más <i class="fa-solid fa-arrow-right"></i></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
 
-<!--INICIO DE PIE-->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-6 text-center pb-3">
-                <a href="http://behance.com" target="blank" class="mx-2"><i class="fa-brands fa-behance"></i></a>
-                <a href="http://facebook.com" target="blank" class="mx-2"><i class="fa-brands fa-facebook"></i></a>
-                <a href="http://instagram.com" target="blank" class="mx-2"><i class="fa-brands fa-instagram"></i></a>
+            <div class="row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <div class="col proyecto proyecto--dos">
+                    <a href="./pages/proyectos-detalle_san-agustin.html">
+                        <img class="proyecto__img img-fluid" src="./assets/img/proyectos/proyecto2.png" alt="Proyecto">
+                        <div class="proyecto__contenido">
+                            <h2 class="proyecto__contenido--titulo">Colegios San Agustin</h2>
+                            <span class="badge bg-primary">Diseño web</span>
+                            <p class="proyecto__contenido--link">ver más <i class="fa-solid fa-arrow-right"></i></p>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="col-12 col-md-6">
-                <form class="d-flex pb-3">
-                    <input class="form-control me-2" type="email" placeholder="Correo electrónico" aria-label="Search">
-                    <button class="btn btn-primary" type="submit">Enviar</button>
-                </form>
+
+            <div class="row" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <div class="col proyecto proyecto--tres">
+                    <a href="./pages/proyectos-detalle_tacos.html">
+                        <img class="proyecto__img img-fluid" src="./assets/img/proyectos/proyecto3.png" alt="Proyecto">
+                        <div class="proyecto__contenido">
+                            <h2 class="proyecto__contenido--titulo">Reel Tacos Snacks</h2>
+                            <span class="badge bg-primary">Animación</span>
+                            <p class="proyecto__contenido--link">ver más <i class="fa-solid fa-arrow-right"></i></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!--FIN LISTA DE PROYECTOS-->
+        </div>
+    </main>
+    <!--FIN DE CUERPO-->
+
+    <!--INICIO DE PIE-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 text-center pb-3">
+                    <a href="http://behance.com" target="blank" class="mx-2"><i class="fa-brands fa-behance"></i></a>
+                    <a href="http://facebook.com" target="blank" class="mx-2"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="http://instagram.com" target="blank" class="mx-2"><i
+                            class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="col-12 col-md-6">
+                    <form class="d-flex pb-3">
+                        <input class="form-control me-2" type="email" placeholder="Correo electrónico"
+                            aria-label="Search">
+                        <button class="btn btn-primary" type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-12">© Rubén Cunyas 2022</div>
             </div>
         </div>
-        <div class="row text-center">
-            <div class="col-12">© Rubén Cunyas 2022</div>
-        </div>
-    </div>
-</footer>
-<!--FIN DE PIE-->
+    </footer>
+    <!--FIN DE PIE-->
 
 
 
